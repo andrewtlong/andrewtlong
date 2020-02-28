@@ -1,5 +1,5 @@
 ---
-layout: tagpage
+layout: default
 title: Carl Sagan
 ---
 <div class="container">
