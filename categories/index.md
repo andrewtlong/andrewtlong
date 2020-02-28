@@ -37,11 +37,12 @@ title: Categories
                 class="btn btn-shadow btn-sm btn-outline-primary" align="right">
                 Read More
                 </a>
-              </div>
-            </div>
-        </article>
+              </div><br>
+            </div><br>
+        </article><br>
         {% endfor %}
         </div>
         <br>
 {% endfor %}
 </div>
+<br>
