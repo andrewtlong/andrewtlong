@@ -10,3 +10,47 @@ title: Carl Sagan
 {% for post in site.categories.Turtle %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+
+<div class="container">
+  {% for post in site.categories.Turtle limit: 10 %}
+    <div class="card">
+      <div class="card-header">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>Posted in:
+          {% if post %}
+            {% assign categories = post.categories %}
+            {% else %}
+              {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+            <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+          {% endfor %}
+        </p>
+        <p style="font-size: 11px">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {%- assign date_format = "%b %-d, %Y" -%}
+            {{ post.date | date: date_format }}
+          </time>
+        </p>
+      </div>
+      <div class="card-body">
+        <p>{{ post.excerpt }}</p>
+      </div>
+      <div class="card-footer text-muted" align="right">
+        <a href="{{ post.url }}"
+        title="Read More"
+        class="btn btn-shadow btn-sm btn-outline-primary" align="right">
+        Read More
+        </a>
+      </div>
+    </div>
+    <br>
+  {% endfor %}
+  </div>
+
+  <a href="/categories/#Turtle"
+               title="View More Posts"
+               class="btn btn-lg btn-danger btn-shadow px-3 my-2 ml-0 text-left" align="right">
+              View More Posts
+            </a>
