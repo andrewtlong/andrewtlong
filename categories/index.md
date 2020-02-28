@@ -38,9 +38,9 @@ title: Categories
                 Read More
                 </a>
               </div>
+            </div>
         </article>
         {% endfor %}
         </div>      
   </div>
 {% endfor %}
-</div>
