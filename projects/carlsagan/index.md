@@ -20,7 +20,7 @@ title: Carl Sagan
           {% endif %}
           {% for category in categories %}
             <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-            {% unless forloop.last %}&nbsp;{% endunless %}
+            {% unless forloop.last %}&#44;&nbsp;{% endunless %}
           {% endfor %}
         </p>
         <p style="font-size: 11px">
