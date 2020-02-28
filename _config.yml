@@ -1,3 +1,6 @@
+---
+excerpt_separator: <!--more-->
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -18,11 +21,11 @@ email: "andrew@andrewtlong.com"
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal site of Andrew Long, owner of Chameleon Tech Services, technology enthusiast, and proud member of the Nerd Herd.
 #baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://andrewtlong.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://andrewtlong.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  andrewtlong
 
-repository: "andrewtlong/bootstrap-4-github-pages"
+repository: "andrewtlong/andrewtlong.github.io"
 
 # Build settings
 plugins:
