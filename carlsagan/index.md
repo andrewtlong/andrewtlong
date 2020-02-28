@@ -9,7 +9,7 @@ title: Carl Sagan
     <img src="https://andrewtlong.com/images/carl_resized.jpg" class="rounded-circle img-fluid" height="250px" width="250px">
   </div>
 </div>
-
+<br>
 <div class="container">
   {% for post in site.categories.Turtle limit: 10 %}
     <div class="card">
