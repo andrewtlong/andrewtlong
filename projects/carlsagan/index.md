@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: tagpage
 title: Carl Sagan
+tag: turtle
 ---
 <div class="container">
   <h1>Carl Sagan</h1>
