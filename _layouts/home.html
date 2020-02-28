@@ -14,28 +14,38 @@ layout: default
     {{ content }}
   </section>
 
-  {%- if site.posts.size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
-    <ul class="list-unstyled">
-      {%- for post in site.posts -%}
-      <li>
-        <span class="text-muted">
-          {%- assign date_format = "%b %-d, %Y" -%}
-          {{ post.date | date: date_format }}
-        </span>
-        <p class="h5">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+  <h2>Recent Blog Posts</h2>
+  <div class="container">
+  {% for post in site.posts limit: 10 %}
+    <div class="card">
+      <div class="card-header">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p style="font-size: 11px">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {%- assign date_format = "%b %-d, %Y" -%}
+            {{ post.date | date: date_format }}
+          </time>
         </p>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+      </div>
+      <div class="card-body">
+        {{ post.excerpt }}
+      </div>
+      <div class="card-footer text-muted" align="right">
+        <a href="{{ post.url }}"
+        title="Read More"
+        class="btn btn-shadow btn-sm btn-outline-primary" align="right">
+        Read More
+        </a>
+      </div>
+    </div>
+    <br>
+  {% endfor %}
+  </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+  <a href="/posts"
+               title="View More Posts"
+               class="btn btn-lg btn-danger btn-shadow px-3 my-2 ml-0 text-left" align="right">
+              View More Posts
+            </a>
 
 </div>
