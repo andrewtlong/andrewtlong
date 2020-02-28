@@ -5,6 +5,15 @@ layout: default
 
   <header>
     <h1>{{ page.title | escape }}</h1>
+    {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+      <p style="font-size: 10px">Categories: <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a></p>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
     <p class="text-muted">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = "%b %-d, %Y" -%}
