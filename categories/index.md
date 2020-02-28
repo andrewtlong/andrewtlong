@@ -42,5 +42,5 @@ title: Categories
         </article>
         {% endfor %}
         </div>      
-  </div>
 {% endfor %}
+</div>
