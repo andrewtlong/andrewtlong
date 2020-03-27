@@ -4,13 +4,17 @@ layout: post
 categories: [Turtle]
 ---
 
-I finally received all the items I needed to begin the transformation of Carl's tank. I purchased about 15 pounds of dark flourite for use as a substrate for the plants. ![Flourite](/assets/aquascaping202003/2020-03-05_13.36.40.jpeg){:class="img-responsive"} I also bought 50 pounds of river gravel. ![River Gravel](/assets/aquascaping202003/2020-03-05_13.37.01.jpeg){:class="img-responsive"}
+I finally received all the items I needed to begin the transformation of Carl's tank. I purchased about 15 pounds of dark flourite for use as a substrate for the plants. ![Flourite](/assets/aquascaping202003/2020-03-05_13.36.40.jpeg){:class="img-responsive"} 
+
+I also bought 50 pounds of river gravel. ![River Gravel](/assets/aquascaping202003/2020-03-05_13.37.01.jpeg){:class="img-responsive"}
 
 <!--more-->
 
 I decided to try Dwarf Baby's Tears as a starter plant, since they are easy to germinate and are very prolific. 
 
-I started by filling a bucket with small batches of the flourite ![Bucket with flourite](/assets/aquascaping202003/2020-03-05_18.08.17.jpeg){:class="img-responsive"}. I rinsed it until the water was mostly clear. The picture here is from the initial rinse. It looks almost like chocolate milk! ![Rinsing flourite](/assets/aquascaping202003/2020-03-05_18.08.29.jpeg){:class="img-responsive"}
+I started by filling a bucket with small batches of the flourite ![Bucket with flourite](/assets/aquascaping202003/2020-03-05_18.08.17.jpeg){:class="img-responsive"}. 
+
+I rinsed it until the water was mostly clear. The picture here is from the initial rinse. It looks almost like chocolate milk! ![Rinsing flourite](/assets/aquascaping202003/2020-03-05_18.08.29.jpeg){:class="img-responsive"}
 
 During this time, I also prepared a temporary tank for Carl while the seeds would germinate and grow for the next two weeks. I used a chunk of petrified wood and a sandstone rock as a basking/climbing spot for Carl. ![Temporary tank](/assets/aquascaping202003/2020-03-06_18.30.19.jpeg){:class="img-responsive"}
 
