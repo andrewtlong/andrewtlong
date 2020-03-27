@@ -4,7 +4,7 @@ layout: post
 categories: [Turtle]
 ---
 
-I finally received all the items I needed to begin the transformation of Carl's tank. I purchased about 15 pounds of dark flourite for use as a substrate for the plants. ![Flourite](/assets/aquascaping202003/2020-03-05_13.36.40.jpeg){:class="img-responsive"} 
+I finally received all the items I needed to begin the transformation of Carl's tank. I purchased about 15 pounds of dark flourite for use as a substrate for the plants. ![Flourite](/assets/aquascaping202003/2020-03-05_13.36.40.jpeg =250x){:class="img-responsive"} 
 
 I also bought 50 pounds of river gravel. ![River Gravel](/assets/aquascaping202003/2020-03-05_13.37.01.jpeg){:class="img-responsive"}
 
