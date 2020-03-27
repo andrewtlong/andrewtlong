@@ -16,7 +16,7 @@ categories: [Turtle]
 
 <center><img align="middle" src="/assets/aquascaping202003/2020-03-05_18.08.29.jpeg" width="400"></center><br><center>I rinsed it until the water was mostly clear. The picture here is from the initial rinse. It looks almost like chocolate milk! </center><br>
 
-<img align="middle" src="/assets/aquascaping202003/2020-03-06_18.30.19.jpeg" width="400"></center><br><center>During this time, I also prepared a temporary tank for Carl while the seeds would germinate and grow for the next two weeks. I used a chunk of petrified wood and a sandstone rock as a basking/climbing spot for Carl. </center><br><center>
+<center><img align="middle" src="/assets/aquascaping202003/2020-03-06_18.30.19.jpeg" width="400"></center><br><center>During this time, I also prepared a temporary tank for Carl while the seeds would germinate and grow for the next two weeks. I used a chunk of petrified wood and a sandstone rock as a basking/climbing spot for Carl. </center><br>
 
 <center><img align="middle" src="/assets/aquascaping202003/2020-03-06_18.54.41.jpeg" width="400"></center><br><center>I rigged up my Penn Plax canister filter for use in the temporary tank, as well. </center><br>
 
