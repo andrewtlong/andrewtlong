@@ -9,7 +9,7 @@ title: Weather Database
 </div>
 <div class="container text-left">
   <h3>The Beginning</h3>
-  <p>My dad is a weather geek. He started recording the weather back in the mid 1980s by hand, cataloging temperature, humidity, barometric pressure, wind speed and direction, and precipitation. Several years ago, I decided to save a few trees and convert his spreadsheets to a program where he could continue to add entries and easily look back on the data he had entered for amateur forecasting.</p>
+  <p>My dad is a weather geek. He started recording the weather back in the mid 1980s by hand, cataloging temperature, humidity, barometric pressure, wind speed and direction, and precipitation. Several years ago, I decided to save a few trees and convert his hand-written entries to an application where he could continue to add entries and easily look back on the data he had entered for amateur forecasting.</p>
   <h3>Inputting the Data</h3>
   <p>But where to start? My initial iteration was to manually enter all of his data (about nine thousand entries) into an Excel spreadsheet. It was a tedious and agonizing effort, but in a few days I had manually entered all of his data into an easy-to-read format to which he could add at his leisure.</p>
   <h3>Version 1</h3>
