@@ -6,6 +6,8 @@ title: Weather Database
 <div class="container text-center">
   <h1>Weather Database</h1>
   <h2>A Continuing Project</h2>
+</div>
+<div class="container text-left">
   <h3>The Beginning</h3>
   <p>My dad is a weather geek. He started recording the weather back in the mid 1980s by hand, cataloging temperature, humidity, barometric pressure, wind speed and direction, and precipitation. Several years ago, I decided to save a few trees and convert his spreadsheets to a program where he could continue to add entries and easily look back on the data he had entered for amateur forecasting.</p>
   <h3>Inputting the Data</h3>
