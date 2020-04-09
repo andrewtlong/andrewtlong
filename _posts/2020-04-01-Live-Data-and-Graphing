@@ -9,3 +9,5 @@ I've spent the last two days fiddling around with WeeWx, my RTL-SDR, and an Acur
 <!--more-->
 
 I had tried this once before on one of my older Linux server but had no luck. Having just built a new server recently with a newer LTS version of Lubuntu, I thought I'd give it another go. Again, I installed all the proper drivers, tested the reception succesfully, and installed and configure WeeWx. I implemented the SDR driver for WeeWx and manually tested the reception once again, and everything appeared to work in the console. However, I could not get the data to actually populate the WeeWx database. 
+
+After some research, I discovered another database system called Influx. Appractly, using the rtl_433 scripting, I could upload the live data to an Influx database and then visualize it in real-time. This led me to come across Grafana, an amazing self-hosted software that can reder graphs/charts/ect from various data types. After configuring the rtl_433 script to take my live weather data and upload it to the Influx database, I was able to pull the data through Grafana and put together a pretty cool dashboard!
